@@ -1,9 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>IMDAZ - Pelotas</title>
+		<title>IMDAZ</title>
+		<!-- Material Icons -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome -->
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<!-- Slick CSS -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+		/>
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="./assets/index.css" />
 	</head>
-	<body></body>
+	<body>
+		<!-- Cabeçalho -->
+		<header>
+			<div class="top-bar">
+				<div class="logo">IMDAZ</div>
+				<div class="theme-icon">
+					<span class="material-icons">dark_mode</span>
+				</div>
+			</div>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#">Início</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Serviços Oferecidos</a></li>
+					<li><a href="#">Páginas Relacionadas</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+				<div class="search-bar">
+					<input type="text" placeholder="Pesquisar" />
+					<button type="submit"><i class="fas fa-search"></i></button>
+				</div>
+			</nav>
+		</header>
+
+		<!-- Carrossel de Imagens (com Slick) -->
+		<section class="carousel">
+			<div class="slick-carousel">
+				<div>
+					<img src="./assets/img/img1.jpg" alt="Crianças brincando" />
+				</div>
+				<div>
+					<img src="./assets/img/img2.jpg" alt="Evento escolar" />
+				</div>
+				<div><img src="./assets/img/img3.jpg" alt="Aula interativa" /></div>
+			</div>
+		</section>
+
+		<!-- Seção de Artigos -->
+		<section class="articles">
+			<h2>Artigos</h2>
+			<div class="articles-grid">
+				<article>
+					<img src="./assets/img/img4.jpg" alt="Metodologia de Ensino" />
+					<h3>Metodologia de Ensino</h3>
+					<p>Entenda como nos firmamos em ensinar aos nossos alunos.</p>
+					<a href="#">Saiba Mais</a>
+				</article>
+				<article>
+					<img src="./assets/img/img5.jpg" alt="Doações" />
+					<h3>Doações</h3>
+					<p>
+						Acesse e entenda como se juntar às nossas iniciativas de doação.
+					</p>
+					<a href="#">Saiba Mais</a>
+				</article>
+				<article>
+					<img src="./assets/img/img6.jpg" alt="Calendário Escolar" />
+					<h3>Calendário Escolar</h3>
+					<p>Acompanhe os calendários escolares e datas importantes.</p>
+					<a href="#">Saiba Mais</a>
+				</article>
+			</div>
+		</section>
+
+		<!-- Rodapé -->
+		<footer>
+			<div class="footer-container">
+				<div class="footer-section">
+					<h4>Publicações mais populares</h4>
+					<ul>
+						<li>Metodologia de Ensino</li>
+						<li>Doações</li>
+						<li>Calendário Escolar</li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Tags</h4>
+					<ul>
+						<li>#ensino</li>
+						<li>#doações</li>
+						<li>#calendário</li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Sobre nós</h4>
+					<p>
+						IMDAZ é uma instituição que cuida de crianças e adolescentes
+						carentes que buscam por ensino.
+					</p>
+				</div>
+				<div class="footer-section">
+					<h4>Contato</h4>
+					<p>Tel: (53) 3228.5505</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2024 IMDAZ. Todos os direitos reservados.</p>
+				<div class="social-icons">
+					<a target="_blank" href="https://www.instagram.com/imdaz.1924/"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a
+						target="_blank"
+						href="https://www.facebook.com/institutodemenoresdaz"
+						><i class="fab fa-facebook"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+
+		<!-- JQuery e Slick JS -->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+		></script>
+		<script src="./assets/index.js"></script>
+	</body>
 </html>
