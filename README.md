@@ -1,1 +1,1 @@
-![Imagem]('assets/img/figma.png')
+![Imagem](./assets/img/figma.png)
